@@ -64,9 +64,30 @@ For creating the policy go to IAM console and select policy and click create pol
     ]
 }
 ~~~
-please replace <region>and <account-id> with your account region and accound id.
-  
-### Login as IAM user and testing
+Please replace regio with your accounts region and account-id with your account id.
+
+### 3-Login as IAM user and testing
+
+Now login as created IAM user and you are able to start,stop and restart instance with tag "website" project tag "wordpress" and env tag "prod".
+When you try to start,stop and restart other instance you will get the below error message.
+
+![image](https://user-images.githubusercontent.com/100775801/162282864-bcdeedc2-adc0-489f-8852-7fac133f1219.png)
+
+## Conclusion
+
+In this article we had discussed how a IAM user can start, stop and restart with specific tags. We have done that with the help of IAM policy.
+
+### ⚙️ Connect with Me
+
+<p align="center">
+ <a href="https://www.instagram.com/itz__me_omkar/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sanu-das-t-3722891b5"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+
+
+	
+
+
+
 
 
 
