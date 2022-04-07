@@ -1,0 +1,1 @@
+# IAM-policy-for-start-stop-and-restart-instance-based-on-their-tags
